@@ -7,7 +7,7 @@ namespace Fulll\Domain;
 class Fleet
 {
     /** @var Vehicle[] */
-    private array $vehicle = [];
+    private array $vehicle;
 
     /** @param Vehicle[] $vehicles */
     public function __construct(array $vehicles = [])

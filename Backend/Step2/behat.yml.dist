@@ -1,0 +1,11 @@
+default:
+    suites:
+        default:
+            paths:
+                - '%paths.base%/features'
+            contexts:
+                - Fulll\Features\bootstrap\FeatureContext
+
+    extensions:
+        FriendsOfBehat\SymfonyExtension:
+            bootstrap: 'config/behat/bootstrap.php'
